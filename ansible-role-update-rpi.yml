@@ -1,0 +1,14 @@
+---
+
+- name: installation docker
+  hosts: all
+  become: yes
+
+  #  vars:
+  # docker_storage_devices: /dev/sdi
+  # docker_storage_driver: devicemapper
+  # docker_storage_thinpool: docker-pool
+  # docker_storage_volume_groups: docker-vg
+
+  roles:
+    - /etc/ansible/roles/Update-RPI/ 
