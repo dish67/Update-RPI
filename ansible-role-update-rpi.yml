@@ -1,6 +1,7 @@
 ---
 
 - name: installation docker
+  remote_user: pi
   hosts: all
   become: yes
 
