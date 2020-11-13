@@ -1,5 +1,9 @@
 ---
 # tasks file for Update-RPI
+
+- user: name=pi password={{password}} 
+  sudo: yes
+
 - name: update software 
   apt:
    update_cache: true
