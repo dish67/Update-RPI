@@ -1,8 +1,8 @@
 ---
 # tasks file for Update-RPI
 
-- user: name=pi password={{password}} 
-  sudo: yes
+#- user: name=pi password='teZm6vo7PsNSc' 
+#  sudo: yes
 
 - name: update software 
   apt:

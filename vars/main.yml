@@ -5,5 +5,5 @@
   # above command requires the PassLib library: sudo pip install passlib
   #  - password: '$6$rounds=656000$dz3fYJJyQHumP0gy$Xs9d9.1cAqK/8PlzFZMoWXu0qfK2kQhxsXlePPxL4wPnyZQBmgju8O/l72rIreUK.ylqj7aGD9R8gExf2p0cc1'
   #  python -c 'import crypt; print crypt.crypt("This is my Password", "ton password")'
-  - password: 'teZm6vo7PsNSc'
+  #  - password: 'teZm6vo7PsNSc'
 
