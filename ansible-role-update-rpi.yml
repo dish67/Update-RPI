@@ -12,4 +12,5 @@
   # docker_storage_volume_groups: docker-vg
 
   roles:
-    - /etc/ansible/roles/Update-RPI/ 
+    - /home/pi/Update-RPI/ 
+#    - /etc/ansible/roles/Update-RPI/ 
